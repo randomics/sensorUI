@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/sensor',{
+	templateUrl: 'views/sensor.html',
+        controller: 'SensorCtrl'
+      })	
       .otherwise({
         redirectTo: '/'
       });
